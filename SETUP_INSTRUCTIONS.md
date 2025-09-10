@@ -20,7 +20,7 @@ az ad sp create-for-rbac --name pgflexsp17 --role "Reader" --scopes /subscriptio
 If you already have a Service Principal or an Entra Administrator has created one for you, use the following commands to add the required permissions:
 
 ```
-az role assignment create --assignee {service_principal_client_id} --role "Reader" --scope /subscriptions/{subscription_id}/resourceGroups/{rg_name}/providers/Microsoft.DBforPostgreSQL/flexibleServer {postgresflexservername}
+az role assignment create --assignee {service_principal_client_id} --role "Reader" --scope /subscriptions/{subscription_id}/resourceGroups/{rg_name}/providers/Microsoft.DBforPostgreSQL/flexibleServer{postgresflexservername}
 az role assignment list --all --assignee {service_principal_client_id}
 ```
 
