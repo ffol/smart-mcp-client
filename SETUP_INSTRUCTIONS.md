@@ -26,8 +26,7 @@ az role assignment list --all --assignee {service_principal_client_id}
 
 ### c. Add Service Principal to Entra Administrators
 Add the Service Principal to Microsoft Entra administrators via the Portal:
-- Go to the respective Azure Database for PostgreSQL Flexible Server
-- Under the **Security** blade, select **Authentication**
+- Go to the respective Azure Database for PostgreSQL Flexible Server and Under the **Security** blade, select **Authentication**
 
 ## 3. Enable Required PostgreSQL Extensions
 In **Azure PostgreSQL Flexible Server** > **Server Parameters** > `azure.extensions`, select the following extensions:
