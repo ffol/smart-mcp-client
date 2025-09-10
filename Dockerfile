@@ -21,6 +21,7 @@ RUN pip3 install -r requirements.txt
 
 
 COPY ./src/azure_postgresql_mcp.py .
+COPY ./src/test_pg_connection.py .
 COPY ./src/azure_conversation_history.py .
 COPY ./src/smart_mcp_client_improved.py .
 COPY ./src/smart-mcp-client_improved.ipynb .
