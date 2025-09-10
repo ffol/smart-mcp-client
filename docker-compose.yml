@@ -1,0 +1,10 @@
+services:
+  mcpserverpy:
+    container_name: mymcpserver-py
+    network_mode: bridge
+    ports:
+      - 8003:8003
+    build:
+      context: ./
+    image: mcpserver-py
+
