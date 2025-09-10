@@ -40,8 +40,8 @@ In **Azure PostgreSQL Flexible Server** > **Server Parameters** > `azure.extensi
 - **Python**
 
 ## 5. Project Setup
-- Browse to the folder where the Dockerfile and source code are located (e.g., `mcp-server-py`)
-- Populate the `.env` file with all required details (see provided `env.sample` file)
+- Browse to the folder where the Dockerfile and source code are located (e.g., `smart-mcp-client`)
+- Populate the `env.sample` file with all required details (no need to rename the `env.sample` file, it will be pushed to container as `.env`)
 
 ## 6. Build and Start Docker Containers
 ```
